@@ -1,5 +1,5 @@
 {
-  "name": "__MSG_appName__",
+  "name": "vuejs-devtools",
   "version": "0.0.2",
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
@@ -14,42 +14,5 @@
       "scripts/background.js"
     ]
   },
-  "devtools_page": "devtools.html",
-
-  "browser_action": {
-    "default_icon": {
-      "19": "images/icon-19.png",
-      "38": "images/icon-38.png"
-    },
-    "default_title": "vuechrome",
-    "default_popup": "popup.html"
-  },
-  "options_page": "options.html",
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": true
-  },
-  "omnibox": {
-    "keyword": "vuechrome"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "js": [
-        "scripts/contentscript.js"
-      ],
-      "run_at": "document_end",
-      "all_frames": false
-    }
-  ],
-  "permissions": [
-    "tabs",
-    "history",
-    "management",
-    "http://*/*",
-    "https://*/*"
-  ]
+  "devtools_page": "devtools.html"
 }
