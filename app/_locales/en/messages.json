@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "vuechrome",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "VueJS Chrome sidebar",
+    "description": "The description of the application"
+  }
+}
