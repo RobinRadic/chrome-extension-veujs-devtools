@@ -333,13 +333,13 @@ module.exports = function (grunt) {
     'clean:dist',
     'babel',
     'chromeManifest:dist',
-    'useminPrepare',
-    'concurrent:dist',
-    'cssmin',
+    //'useminPrepare',
+    //'concurrent:dist',
+    //'cssmin',
     'concat',
     'uglify',
     'copy',
-    'usemin',
+    //'usemin',
     'compress'
   ]);
 
